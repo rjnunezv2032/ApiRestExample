@@ -1,0 +1,24 @@
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\bin\Release\net5.0\Sonda.Core.RemotePrinting.deps.json
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\bin\Release\net5.0\Sonda.Core.RemotePrinting.dll
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\bin\Release\net5.0\ref\Sonda.Core.RemotePrinting.dll
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\bin\Release\net5.0\Sonda.Core.RemotePrinting.pdb
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.AssemblyInfoInputs.cache
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.AssemblyInfo.cs
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.csproj.CoreCompileInputs.cache
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.dll
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\ref\Sonda.Core.RemotePrinting.dll
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.pdb
+C:\Users\usuario\OneDrive\Documentos\SondaMMAsesorias\ProyerctoIR\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.csproj.AssemblyReference.cache
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\bin\Release\net5.0\Sonda.Core.RemotePrinting.deps.json
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\bin\Release\net5.0\Sonda.Core.RemotePrinting.dll
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\bin\Release\net5.0\ref\Sonda.Core.RemotePrinting.dll
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\bin\Release\net5.0\Sonda.Core.RemotePrinting.pdb
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.csproj.AssemblyReference.cache
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.GeneratedMSBuildEditorConfig.editorconfig
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.AssemblyInfoInputs.cache
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.AssemblyInfo.cs
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.csproj.CoreCompileInputs.cache
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.dll
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\ref\Sonda.Core.RemotePrinting.dll
+D:\working\projects\SONDA\impresion remota\rc\Backend\Sonda.Core.RemotePrinting\obj\Release\net5.0\Sonda.Core.RemotePrinting.pdb

@@ -1,0 +1,43 @@
+﻿using NHibernate.Linq;
+using Sonda.Core.DbConn.UnitOfWork;
+using Sonda.Core.RemotePrinting.Model.Input;
+using Sonda.Core.RemotePrinting.Repository.Base;
+using Sonda.Core.RemotePrinting.Model.Entities;
+using Sonda.Core.RemotePrinting.Repository.DTO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System;
+
+namespace Sonda.Core.RemotePrinting.Repository
+{
+    public class AgenteRepository : GenericRepository<AgenteDTO, IdAgenteKey>, IAgenteRepository
+    {
+        private readonly IUnitOfWork _unitOfWork;
+        public AgenteRepository(IUnitOfWork unitOfWork) : base(unitOfWork) { }
+        
+        public async Task RemovePrinter(IdAgenteKey filtro)
+        {
+            var query = (from printer in Session.Query<UsuarioImpresorasDTO>()
+                         where printer.IdImpresora == filtro.IdImpresora
+                         select printer);
+
+            var list = await query.ToListAsync().ConfigureAwait(false);
+            if (list.Count() == 0)
+            {
+                _UnitOfWork.AddMessage("USU-00001", "No existen impresoras, para el id indicado");
+                return;
+            }
+            else
+            {
+                foreach (var impresora in list)
+                {
+                    impresora.EstadoReg = "E";
+                    await _session.UpdateAsync(impresora);
+                }
+            }
+
+            _UnitOfWork.AddMessage("USU-00001", "El registro ha sido modificado");
+        }
+    }
+}

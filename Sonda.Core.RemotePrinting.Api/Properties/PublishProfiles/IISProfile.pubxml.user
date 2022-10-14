@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>
+    </EncryptedPassword>
+    <History>True|2022-09-03T21:33:39.9765831Z;True|2022-09-01T04:29:17.0670427-04:00;True|2022-08-25T23:38:01.8382538-04:00;True|2022-08-25T21:31:30.2231274-04:00;True|2022-08-25T16:09:15.0041755-04:00;True|2022-08-25T16:06:27.3777536-04:00;True|2022-08-25T16:06:23.7918526-04:00;False|2022-08-25T15:51:57.3471337-04:00;False|2022-08-25T15:50:06.5009284-04:00;True|2022-08-24T14:35:51.1030104-04:00;True|2022-08-24T14:31:06.0753405-04:00;True|2022-08-24T05:09:27.7882578-04:00;True|2022-08-24T05:01:23.7680674-04:00;True|2022-08-19T09:19:19.7283627-04:00;True|2022-08-18T16:36:33.2420351-04:00;True|2022-08-13T23:44:20.2394733-04:00;True|2022-08-07T02:41:39.0229770-04:00;True|2022-08-05T23:41:11.2938940-04:00;True|2022-08-05T18:40:08.0645160-04:00;True|2022-08-05T13:13:39.4167930-04:00;True|2022-08-05T04:23:09.5605132-04:00;False|2022-08-05T04:22:12.5517049-04:00;True|2022-08-05T02:33:28.1131239-04:00;False|2022-08-05T02:31:28.0546128-04:00;True|2022-08-04T17:50:12.2589717-04:00;True|2022-08-04T17:38:20.8535441-04:00;True|2022-08-04T13:15:19.4109737-04:00;True|2022-08-04T12:45:43.7338779-04:00;True|2022-08-04T11:41:50.7346046-04:00;True|2022-08-04T11:41:30.3873871-04:00;True|2022-08-04T03:42:36.8901699-04:00;False|2022-08-04T03:42:06.5180062-04:00;True|2022-08-04T03:32:40.9867966-04:00;True|2022-08-04T03:27:30.5644414-04:00;True|2022-08-02T23:32:46.7055570-04:00;False|2022-08-02T23:30:55.9644888-04:00;False|2022-08-02T23:01:05.6158758-04:00;False|2022-07-21T09:59:36.3686620-04:00;False|2022-07-21T09:50:38.8152965-04:00;True|2022-07-21T09:48:26.8419547-04:00;True|2022-07-21T09:45:19.4144147-04:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Hangfire">
+      <Value>Data Source=sondacore.database.windows.net%3bInitial Catalog=sondacoredb-dev%3bUser Id=javier.aranda%3bPassword=sondanetsondanet1!%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,89 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+										 
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningsAsErrors>NU1605</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Business\IRegistryPrintAgentsBO.cs" />
+    <Compile Remove="Business\RegistryPrintAgentsBO.cs" />
+    <Compile Remove="Business\RemoteAgentServicesWebSocketHandler.cs" />
+    <Compile Remove="Model\Entities\Agencia.cs" />
+    <Compile Remove="Model\Entities\AgentCommand.cs" />
+    <Compile Remove="Model\Entities\AgenteImpresora.cs" />
+    <Compile Remove="Model\Entities\Area.cs" />
+    <Compile Remove="Model\Entities\ImpresorasEstado.cs" />
+    <Compile Remove="Model\Entities\PermisosImpresora.cs" />
+    <Compile Remove="Model\Entities\TrabajosPendientes.cs" />
+    <Compile Remove="Model\Output\FileOutput.cs" />
+    <Compile Remove="Repository\AgentPrintRepository.cs" />
+    <Compile Remove="Repository\DTO\AgenteImpresoraDTO.cs" />
+    <Compile Remove="Repository\DTO\ImpresorasEstadoDTO.cs" />
+    <Compile Remove="Repository\DTO\PermisosImpresoraDTO.cs" />
+    <Compile Remove="Repository\DTO\TrabajosPendientesDTO.cs" />
+    <Compile Remove="Repository\IRegistryPrintAgentsRepository.cs" />
+    <Compile Remove="Repository\IStatusMensajeRepository.cs" />
+    <Compile Remove="Repository\Mapping\sirAgenteImpresora.cs" />
+    <Compile Remove="Repository\Mapping\sirPermisosImpresora.cs" />
+    <Compile Remove="Repository\RegistryPrintAgentsRepository.cs" />
+    <Compile Remove="Repository\StatusMensajeRepository.cs" />
+    <Compile Remove="Services\IRemoteAgentHub.cs" />
+    <Compile Remove="Services\ISocketRemoteAgentServices.cs" />
+    <Compile Remove="Services\RemoteAgentHub.cs" />
+    <Compile Remove="Services\SocketRemoteAgentServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+    <PackageReference Include="DevExpress.Document.Processor" Version="22.1.4" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.5.3" />
+    <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="5.3.0" />
+    <PackageReference Include="MassTransit" Version="7.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Azure.ActiveDirectory.GraphClient" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.2.9" />
+    <PackageReference Include="SendGrid" Version="9.25.0" />
+  
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+
+	  <PackageReference Include="NHibernate" Version="5.3.7" />
+	  <PackageReference Include="FluentNHibernate" Version="3.1.0" />
+	  <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.9" />
+
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation" Version="9.5.3" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.9" />
+    <PackageReference Include="Sonda.Api.Common.Helper" Version="1.0.21" Condition="'$(Configuration)' != 'local'">
+      <NoWarn>NU1605</NoWarn>
+    </PackageReference>
+    <PackageReference Include="Sonda.Core.DbFactory" version="1.0.19" Condition="'$(Configuration)' != 'local'" Version="1.0.19">
+      <NoWarn>NU1605</NoWarn>
+    </PackageReference>
+    <PackageReference Include="Sonda.Core.Database.NH" Condition="'$(Configuration)' != 'local'" Version="1.0.9">
+      <NoWarn>NU1605</NoWarn>
+    </PackageReference>
+    <PackageReference Include="Sonda.Api.Common.Login" Version="1.0.19" Condition="'$(Configuration)' != 'local'">
+      <NoWarn>NU1605</NoWarn>
+    </PackageReference>
+ </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\fw\Sonda.Api.Common\src\Sonda.Api.Common.Helper\Sonda.Api.Common.Helper.csproj" Condition="'$(Configuration)' == 'local'" />
+    <ProjectReference Include="..\..\..\fw\Sonda.Api.Common\src\Sonda.Api.Common.Login\Sonda.Api.Common.Login.csproj" Condition="'$(Configuration)' == 'local'" />
+    <ProjectReference Include="..\..\..\fw\Sonda.Core.Database.Dapper\Sonda.Core.DbFactory\Sonda.Core.DbFactory.csproj" Condition="'$(Configuration)' == 'local'" />
+    <ProjectReference Include="..\..\..\fw\Sonda.Core.Database.Nhibernate\src\Sonda.Core.Database.NH\Sonda.Core.Database.NH.csproj" Condition="'$(Configuration)' == 'local'" />
+  </ItemGroup>
+				
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>
